@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Segunda Aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <div class="contenido">
+   <header>
+    <h1> formulario</h1>
+    
+   </header>
+   
+   <div>
+       <h2>Formulario de Contacto</h2>
+         <form action="">
+     <label for="Usuario">Usuario: </label>
+     <input type="text" id="usuario"/>
+     <br>
+     <label for="clave">Contraseña</label>
+     <input type="password" id="clave"/>
+     <br>
+     <p>Medio de transporte</p>
+     <input type="checkbox" value="1"/>Bicicleta
+     <input type="checkbox" value="2"/>Automovil
+     <input type="checkbox" value="3"/>Triciclo
+     <input type="checkbox" value="4"/>Moto
+     <br>
+     <p>Genero:</p>
+     <input type="radio" name="genero" value="m"/> Masculino
+     <input type="radio" name="genero" value="f" checked="checked"/>Femenino
+     <input type="radio" name="genero" value="o"/>otro
+     <br>
+     <p>Sabor favorito:</p>
+     <select name="sabor" multiple/>
+      <option value="1">Dulce </option>
+       <option value="2">Salado </option>
+        <option value="3">Agrio </option>
+         <option value="4">Agridulce </option>
+     </select>
+       <br>
+         <label>Correo electronico:
+          <input type="email" name="correo">
+         </label>
+        <br>
+         Fecha nacimiento(dia y hora):
+         <input type="datetime-local" name="nacimiento">
+        <br>
+          Hora de slida:<input type="time" name="salida">
+        <br>
+          Año de graduacion:
+          <input type="month" name="graduacion">
+        <br>
+          Página favorita <input type="url" name="favorita">
+        <br>
+          Busacr: <input type="search" name="buscar">
+        <br>
+          Selecciona tu imagen de usuario
+          <input type="file" name="img_usuario">
+        <br>
+         Color favorito: <input type="color" name="color">
+        <br>
+          <label>Comentarios:
+           <textarea rows="4" cols="50">Escribe un comentario</textarea>
+          </label>
+        <br>
+         <input type="submit" value="Enviar">
+         <input type="reset" value="Borrar">
+        <br>
+        </fieldset> <!--Encerrar datos en un campo-->
+         <legend> Datos Personales </legend>
+          Nombre: <input type ="text"><br>
+          Correo Electronico: <input type="Text"><br>
+         </fieldset>
+        <br>
+         <from oninput="cociente.value=parselnt(dividendo.value)/parselnt(divisor.value)">
+          <inputid="dividendo"type="numbre"/><!--se hara una division-->
+          <inputid="divisor"type="number"/>
+          <outputname="cociente"for="dividendo divisor">
+       
+       <footer class="informacion-autor">
+         <p id="texto-autor">
+       
+         Zepeda Alonso Denilson
+         </p>             
+  </div>
+
+</body>
+</html>
