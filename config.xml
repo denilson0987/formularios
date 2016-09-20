@@ -7,10 +7,10 @@
 		
 	<!--versionCode is optional and Android only-->
 	
-	<name>Celebración de Semana Santa</name>
+	<name>Formulario</name>
 	
 	<description>
-	    Aplicacion que muestra la celebración de Semana Santa
+	   form
 	</description>
 	
 	<preference name="phonegap-version" value="3.1.0" />
